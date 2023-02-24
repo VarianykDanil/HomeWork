@@ -1,0 +1,11 @@
+#text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  #read-more, #read-less {
+    color: blue;
+    cursor: pointer;
+  }
+  

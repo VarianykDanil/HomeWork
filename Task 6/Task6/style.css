@@ -1,0 +1,39 @@
+.scroll-arrow {
+    position: fixed;
+    bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: none;
+}
+  
+  .scroll-arrow:hover {
+    background-color: #000;
+    color: #fff;
+}
+  
+  #scroll-up {
+    right: 20px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 2s linear infinite;
+}
+ 
+  
+  #scroll-down {
+    left: 20px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 2s linear infinite;
+}
+
+.content {
+    color: chocolate;
+    width: 500px;
+    margin: auto;
+} 
